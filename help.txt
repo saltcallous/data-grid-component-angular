@@ -1,0 +1,31 @@
+ # installing tailwind:
+    # npm install tailwindcss postcss autoprefixer
+
+    # npx tailwindcss init
+
+    # in tailwind.config.js ==>
+
+        module.exports = {
+            content: [
+                "./src/**/*.{html,ts}",
+            ],
+            theme: {
+                extend: {},
+            },
+            plugins: [],
+            }
+
+    # in src/styles.css ==>
+
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+
+    # in angular.json ==>
+    
+        "styles": [
+            "src/styles.css"
+            ],
+
+
+

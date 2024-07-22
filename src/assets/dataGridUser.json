@@ -1,0 +1,60 @@
+{   
+    "col": [
+        {
+            "name": "نام",
+            "key": "name",
+            "addClass": "text-pink-700"
+        },
+        {
+            "name": "عنوان",
+            "key": "title",
+            "addClass": "text-blue-700"
+        },
+        {
+            "name": "وضعیت",
+            "key": "status",
+            "addClass": "text-green-700", 
+            "option": {
+                "tag": "small",
+                "order": "true"
+            }
+        },
+        {
+            "name": "دسترسی",
+            "key": "role",
+            "addClass": "text-yellow-700"
+        }
+    ],
+    "data": [
+        {
+            "name": "amir",
+            "title": "student",
+            "status": "Active",
+            "role": "User"
+        },
+        {
+            "name": "ali",
+            "title": "teacher",
+            "status": "Inactive",
+            "role": "Admin"
+        },
+        {
+            "name": "alireza",
+            "title": "teacher",
+            "status": "Inactive",
+            "role": "Admin"
+        },
+        {
+            "name": "amirali",
+            "title": "teacher",
+            "status": "Active",
+            "role": "User"
+        },
+        {
+            "name": "sara",
+            "title": "student",
+            "status": "Inactive",
+            "role": "User"
+        }
+    ]
+}

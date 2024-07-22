@@ -1,0 +1,71 @@
+{   
+    "col": [
+        {
+            "name": "نام",
+            "key": "name",
+            "addClass": "text-pink-700"
+        },
+        {
+            "name": "عنوان",
+            "key": "title",
+            "addClass": "text-blue-700"
+        },
+        {
+            "name": "موجودی",
+            "key": "cash",
+            "addClass": "text-green-700"
+        },
+        {
+            "name": "سفارشات",
+            "key": "orders",
+            "addClass": "text-yellow-700"
+        },
+        {
+            "name": "دسترسی",
+            "key": "role",
+            "addClass": "text-yellow-700"
+        }
+    ],
+    "data": [
+        {
+            "name": "amir",
+            "title": "student",
+            "status": "Active",
+            "role": "User",
+            "cash": "200",
+            "orders": "big Mac"
+        },
+        {
+            "name": "ali",
+            "title": "teacher",
+            "status": "Inactive",
+            "role": "Admin",
+            "cash": "200",
+            "orders": "big Mac"
+        },
+        {
+            "name": "alireza",
+            "title": "teacher",
+            "status": "Inactive",
+            "role": "Admin",
+            "cash": "200",
+            "orders": "big Mac"
+        },
+        {
+            "name": "amirali",
+            "title": "teacher",
+            "cash": "200",
+            "status": "Active",
+            "role": "User",
+            "orders": "kfc"
+        },
+        {
+            "name": "sara",
+            "title": "student",
+            "status": "Inactive",
+            "cash": "200",
+            "role": "User",
+            "orders": "nugget"
+        }
+    ]
+}
