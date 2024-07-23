@@ -3,26 +3,62 @@
         {
             "name": "نام",
             "key": "name",
-            "addClass": "text-pink-700"
+            "addClass": "text-pink-700",
+            "renderType": {
+                "text": "true",
+                "html": "small",
+                "tag": { 
+                    "component": "tag-creator"
+                }
+            }
         },
         {
             "name": "عنوان",
             "key": "title",
-            "addClass": "text-blue-700"
+            "addClass": "text-blue-700",
+            "renderType": {
+                "text": "true",
+                "html": "small",
+                "tag": { 
+                    "component": "tag-creator"
+                }
+            }
         },
         {
             "name": "وضعیت",
             "key": "status",
             "addClass": "text-green-700", 
-            "option": {
-                "tag": "small",
-                "order": "true"
+            "renderType": {
+                "text": "false",
+                "html": "small",
+                "tag": { 
+                    "component": "tag-creator"
+                }
             }
         },
         {
             "name": "دسترسی",
             "key": "role",
-            "addClass": "text-yellow-700"
+            "addClass": "text-yellow-700",
+            "renderType": {
+                "text": "true",
+                "html": "small",
+                "tag": { 
+                    "component": "tag-creator"
+                }
+            }
+        },
+        {
+            "name": "محتویات",
+            "key": "content",
+            "addClass": "", 
+            "renderType": {
+                "text": "false",
+                "html": "h2",
+                "tag": { 
+                    "component": "tag-creator"
+                }
+            }
         }
     ],
     "data": [
@@ -30,31 +66,36 @@
             "name": "amir",
             "title": "student",
             "status": "Active",
-            "role": "User"
+            "role": "User",
+            "content": "سلام"
         },
         {
             "name": "ali",
             "title": "teacher",
             "status": "Inactive",
-            "role": "Admin"
+            "role": "Admin",
+            "content": "سلام"
         },
         {
             "name": "alireza",
             "title": "teacher",
             "status": "Inactive",
-            "role": "Admin"
+            "role": "Admin",
+            "content": "سلام32"
         },
         {
             "name": "amirali",
             "title": "teacher",
             "status": "Active",
-            "role": "User"
+            "role": "User",
+            "content": "سلام4"
         },
         {
             "name": "sara",
             "title": "student",
             "status": "Inactive",
-            "role": "User"
+            "role": "User",
+            "content": "سلام4"
         }
     ]
 }

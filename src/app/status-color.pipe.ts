@@ -4,16 +4,14 @@ import { Pipe, PipeTransform } from '@angular/core';
   name: 'statusColor'
 })
 export class StatusColorPipe implements PipeTransform {
-
   transform(value: string): string {
     switch (value) {
       case 'Active':
-        return 'bg-green-100 text-green-800';
+        return 'px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800';
       case 'Inactive':
-        return 'bg-red-100 text-red-800';
+        return 'px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-red-100 text-red-800';
       default:
-        return '';
+        return 'px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text-gray-800';
     }
   }
-
 }

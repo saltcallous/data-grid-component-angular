@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { DataGridComponent } from './data-grid/data-grid.component';
 import { TagCreatorComponent } from './data-grid/tag-creator/tag-creator.component'
 import { StatusColorPipe } from './status-color.pipe';
+import { setBack } from './Directives/directives.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     DataGridComponent,
     StatusColorPipe,
-    TagCreatorComponent
+    TagCreatorComponent,
+    setBack
   ],
   imports: [
     BrowserModule,
