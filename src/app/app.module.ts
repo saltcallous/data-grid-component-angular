@@ -7,6 +7,11 @@ import { DataGridComponent } from './data-grid/data-grid.component';
 import { TagCreatorComponent } from './data-grid/tag-creator/tag-creator.component'
 import { StatusColorPipe } from './status-color.pipe';
 import { setBack } from './Directives/directives.directive';
+import { DynamicFormsComponent } from './forms/dynamic-forms/dynamic-forms.component';
+
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
+import { SortPipe } from './sort.pipe';
 
 @NgModule({
   declarations: [
@@ -14,12 +19,16 @@ import { setBack } from './Directives/directives.directive';
     DataGridComponent,
     StatusColorPipe,
     TagCreatorComponent,
-    setBack
+    setBack,
+    DynamicFormsComponent,
+    SortPipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
